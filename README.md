@@ -23,7 +23,7 @@ node v18.17.0
 - Express
 
 ## Execução
-1. Clonar este repositório: `git clone`
+1. Clonar este repositório: `git clone git@github.com:joaonevescampos/cubos-bank.git`
 2. Executar o projeto: `npm run dev`
 3. Testar os endpoints pelo Insomnia.
 
