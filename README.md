@@ -1,4 +1,4 @@
-# Cubos-Bank
+# Cubos Bank
 ## Descrição
 Este é um projeto back-end de um banco digital. Foi criada uma API RESTfull que permitiu:
 
