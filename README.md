@@ -12,6 +12,11 @@ Este é um projeto back-end de um banco digital. Foi criada uma API RESTfull que
 - [x] Consultar saldo da conta bancária
 - [x] Emitir extrato bancário
 
+## Preview do projeto
+<p>No Insomnia, é possível testar os endpoints da aplicação. Confira a visualização do projeto funcionando.</p>
+
+![print - cubos bank](https://github.com/joaonevescampos/hotel-campos/assets/126534395/6bc7d985-5002-4d15-8aa0-0c631bbd16c2)
+
 ## Pré-requisitos
 node v18.17.0+
 
@@ -19,9 +24,9 @@ node v18.17.0+
 - VS Code
 - Node JS
 - Nodemon
-- Insomnia
 - Express
 - Date FNS
+- Insomnia
 
 ## Execução
 1. Clonar este repositório: `git clone git@github.com:joaonevescampos/cubos-bank.git`
