@@ -33,7 +33,7 @@ node v18.17.0+
 2. Entrar na pasta do projeto: `cd \cubos-bank\`
 3. Instalar pacote NPM: `npm install`
 4. Executar o projeto: `npm run dev`
-5. Testar os endpoints pelo Insomnia. Baixe o app para Windows: https://insomnia.rest/download
+5. Testar os endpoints pelo Insomnia usando a porta 3000. Baixe o app para Windows: https://insomnia.rest/download
 
 - Listar contas: `GET` `/contas?senha_banco=Cubos123Bank`
   #### OBS: Tem que ser exatamente esta senha para ter acesso a lista de contas.
