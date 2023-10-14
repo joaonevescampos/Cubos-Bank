@@ -42,12 +42,12 @@ node v18.17.0+
   Exemplo de requisição:
   ```
   {
-    "nome": "Foo Bar",
-    "cpf": "00011122233",
-    "data_nascimento": "2021-03-15",
-    "telefone": "71999998888",
-    "email": "foo@bar.com",
-    "senha": "123456"
+	"nome": "Foo Bar",
+	"cpf": "00011122233",
+	"data_nascimento": "2021-03-15",
+	"telefone": "71999998888",
+	"email": "foo@bar.com",
+	"senha": "123456"
   }
   ```
   
@@ -67,9 +67,9 @@ node v18.17.0+
   Exemplo de requisição:
   ```
   {
-  	"numero_conta": "1",
-  	"valor": 1900,
-      "senha": "123456"
+	"numero_conta": "1",
+	"valor": 1900,
+	"senha": "123456"
   }
   ```
 
@@ -77,10 +77,10 @@ node v18.17.0+
   Exemplo de requisição:
   ```
   {
-  	"numero_conta_origem": "1",
-  	"numero_conta_destino": "2",
-  	"valor": 200,
-  	"senha": "123456"
+	"numero_conta_origem": "1",
+	"numero_conta_destino": "2",
+	"valor": 200,
+	"senha": "123456"
   }
   ```
   
