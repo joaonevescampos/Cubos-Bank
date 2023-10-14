@@ -61,7 +61,7 @@ node v18.17.0+
 	"valor": 1900
   }
   ```
-  #### OBS: O valor a ser informado tem ser sempre em centavos.
+  #### OBS: O valor a ser informado tem que ser sempre em centavos.
   
 - Sacar: `POST` `/transacoes/sacar`
   Exemplo de requisição:
