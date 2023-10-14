@@ -35,6 +35,58 @@ node v18.17.0+
 4. Executar o projeto: `npm run dev`
 5. Testar os endpoints pelo Insomnia. Baixe o app para Windows: https://insomnia.rest/download
 
+- Listar contas: `GET` `/contas?senha_banco=Cubos123Bank`
+  #### OBS: Tem que ser exatamente esta senha para ter acesso a lista de contas.
+  
+- Criar conta: `POST` `/contas`
+  Exemplo de requisição:
+  ```
+  {
+    "nome": "Foo Bar",
+    "cpf": "00011122233",
+    "data_nascimento": "2021-03-15",
+    "telefone": "71999998888",
+    "email": "foo@bar.com",
+    "senha": "123456"
+  }
+  ```
+  
+- Editar conta: `PUT` `/contas/:numeroConta/usuario`
+- Excluir conta: `DELETE` `/contas/:numeroConta`
+- Depositar: `POST` `/transacoes/depositar`
+  Exemplo de requisição:
+  ```
+  {
+	"numero_conta": "1",
+	"valor": 1900
+  }
+  ```
+  #### OBS: O valor a ser informado tem ser sempre em centavos.
+  
+- Sacar: `POST` `/transacoes/sacar`
+  Exemplo de requisição:
+  ```
+  {
+  	"numero_conta": "1",
+  	"valor": 1900,
+      "senha": "123456"
+  }
+  ```
+
+- Transferir: `POST` `/transacoes/transferir`
+  Exemplo de requisição:
+  ```
+  {
+  	"numero_conta_origem": "1",
+  	"numero_conta_destino": "2",
+  	"valor": 200,
+  	"senha": "123456"
+  }
+  ```
+  
+- Ver saldo: `GET` `/contas/saldo?numero_conta=1&senha=123456`
+- Ver extrato: `GET` `/contas/extrato?numero_conta=1&senha=123456`
+
 ## Autoria
 - Autor: João Victor Neves Campos de Jesus
 - Empresa Associada: Cubos Academy
